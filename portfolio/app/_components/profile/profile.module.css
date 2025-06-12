@@ -1,0 +1,54 @@
+.container {
+  max-width: 80%;
+  height: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  scroll-margin-top: 60px; /* アンカーがズレる為 */
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.profileImage {
+  border-radius: 50%;
+}
+
+.profileText p {
+  margin: 0.5rem 0;
+}
+
+.hobbySection {
+  margin-top: 2rem;
+}
+
+.subHeading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hobbyList {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hobbyItem {
+  text-align: center;
+}
+
+.hobbyImage {
+  border-radius: 8px;
+}
+
+.hobbyText {
+  margin-top: 0.5rem;
+}

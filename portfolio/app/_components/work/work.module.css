@@ -1,0 +1,34 @@
+.container {
+  max-width: 80%;
+  height: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  scroll-margin-top: 60px; /* アンカーがズレる為 */
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.workList {
+  list-style: none;
+  padding: 0;
+}
+
+.workItem {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.link {
+  font-size: 0.9rem;
+  color: #0070f3;
+  text-decoration: none;
+}
