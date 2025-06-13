@@ -6,8 +6,8 @@ import styles from "./page.module.css";
 import About from "./_components/about";
 import Profile from "./_components/profile";
 import Work from "./_components/work";
-// import Skill from "./_components/skill"
-import SkillSection from "./_components/skill/SkillSection";
+import Skills from "./_components/skills/Skills";
+
 
 export default function HomePage() {
   return (
@@ -87,7 +87,7 @@ export default function HomePage() {
         <About />
         <Profile />
         <Work />
-        <SkillSection />
+        <Skills />
         {/* <Skill /> */}
       </main>
     </>

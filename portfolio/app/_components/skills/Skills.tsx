@@ -1,9 +1,9 @@
-// app/_components/skill/SkillSection.tsx
+// app/_components/skill/Skills.tsx
 import Image from "next/image";
 import styles from "./page.module.css";
 import { getSkillsList, Skill } from "../../_libs/microcms";
 
-export default async function SkillSection() {
+export default async function Skills() {
   const data = await getSkillsList();
 
   return (
@@ -17,7 +17,7 @@ export default async function SkillSection() {
           <li key={item.id} className={styles.skillItem}>
             <h3>{item.skillname}</h3>
             {item.image && (
-              <Image
+              <Image className={styles.images}
                 src={item.image.url}
                 width={item.image.width}
                 height={item.image.height}
